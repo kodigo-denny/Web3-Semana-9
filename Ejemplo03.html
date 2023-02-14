@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script src="Animal.js"></script>
+<script src="Ave.js"></script>
+<script src="Perro.js"></script>
+
+<script>
+    let animal = new Animal("Blanco", 20)
+    animal.comer()
+    animal.moverse()
+    //animal.volar()
+
+    console.log("Objeto ave")
+    let ave = new Ave("Blanco", 10, "Tipo")
+    ave.comer()
+    ave.moverse()
+    ave.volar()
+    console.log(ave.peso)
+
+    console.log("Objeto Perro")
+    let perro = new Perro("Cafe", 30, "raza")
+    perro.comer()
+    perro.moverse()
+    perro.ladrar()
+    
+
+    console.log("Ave2")
+    let ave2 = new Ave2("Blanco", 10, "Tipo")
+    ave2.volar()
+    ave2.comer()
+</script>
