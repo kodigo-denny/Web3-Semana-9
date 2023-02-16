@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /*class Estudiante{
+            nombre
+            apellido
+            telefono
+            constructor(nombre, apellido, telefono){
+                this.nombre = nombre
+                this.apellido = apellido
+                this.telefono = telefono
+            }
+        }
+
+        let objeto = new Estudiante("Denny", "Herrera", "2222-2222")
+
+        console.log(objeto)
+
+        let json = JSON.stringify(objeto)
+
+        document.write(json)*/
+
+        let respuesta = '[{"autorId": 1,"nombre": "DENNY ALEXIS","apellido": "HERRERA","paisOrigen": "EL SALVADOR"},{"autorId": 2,"nombre": "Denny","apellido": "Herrera","paisOrigen": "El Salvador"}]'
+
+        console.log(respuesta, typeof(respuesta))
+
+        console.log(respuesta.nombre)
+
+        let objeto = JSON.parse(respuesta)
+
+        console.log(objeto, typeof(objeto))
+        console.log(objeto.nombre)
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
